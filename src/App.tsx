@@ -1,17 +1,17 @@
 import React from 'react';
 import './App.css';
-import Signal from './components/Signal';
 import styled from 'styled-components';
+import View from './components/View';
 
 const AppContainer = styled.div`
   width: 100%;
-  height: 100%;
+  height: 100vh;
 `
 
 const App = () => {
   return (
     <AppContainer>
-      <Signal />
+      <View />
     </AppContainer>
   );
 }
