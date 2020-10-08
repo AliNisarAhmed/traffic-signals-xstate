@@ -73,3 +73,24 @@ export const offRoadGridRows = {
 	'SouthWest': '2 / -1',
 	'SouthEast': '2 / -1',
 }
+
+export const signalNames = {
+	'NorthWest': 'signal-0',
+	'NorthEast': 'signal-1',
+	'SouthWest': 'signal-2',
+	'SouthEast': 'signal-3',
+}
+
+export const signalJustify = {
+	'NorthWest': 'flex-end',
+	'NorthEast': 'flex-start',
+	'SouthWest': 'flex-end',
+	'SouthEast': 'flex-start',
+}
+
+export const signalAlign = {
+	'NorthWest': 'flex-end',
+	'NorthEast': 'flex-end',
+	'SouthWest': 'flex-start',
+	'SouthEast': 'flex-start',
+}
