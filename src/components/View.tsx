@@ -10,7 +10,6 @@ const ViewStyles = styled.main`
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
-	border: 1px solid blue;
 	width: 100%;
 	height: 100%;
 `

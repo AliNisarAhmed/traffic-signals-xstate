@@ -22,7 +22,6 @@ const SignalContainer = styled.div`
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	border: 1px solid black;
 	width: ${signalBodyWidth}px;
 	padding: 4px 2px;
 	border-radius: ${signalBodyBorderRadius}px;

@@ -9,6 +9,7 @@ import {
 	sectionGridTemplateColumns,
 	sectionGridTemplateRows,
 	sideRoadGridColumn,
+	sideRoadGridRows,
 } from '../utils/constants';
 import { SectionProps, SectionTypes } from '../utils/types';
 
@@ -17,7 +18,7 @@ interface IProps {
 }
 
 const StyledSection = styled.section<SectionProps>`
-	border: 1px solid pink;
+	border: 10px solid gray;
 
 	display: grid;
 	grid-template-columns: ${(props) =>
@@ -32,14 +33,14 @@ const OffRoad = styled.div<SectionProps>`
 `;
 
 const MainRoad = styled.div<SectionProps>`
-	grid-column: 2 / -1;
+	grid-column: 1 / -1;
 	grid-row: ${(props) => mainRoadGridRows[props.position]};
 	background-color: ${rgba(black, 0.8)};
 `;
 
 const SideRoad = styled.div<SectionProps>`
 	grid-column: ${(props) => sideRoadGridColumn[props.position]};
-	grid-row: 2 / -1;
+	grid-row: ${(props) => sideRoadGridRows[props.position]};
 	background-color: ${rgba(black, 0.8)};
 `;
 

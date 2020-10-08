@@ -40,10 +40,10 @@ export const sectionGridTemplateRows = {
 }
 
 export const mainRoadGridRows = {
-	'NorthWest': '1 / 2',
+	'NorthWest': '2 / -1',
 	'NorthEast': '2 / -1',
 	'SouthWest': '1 / 2',
-	'SouthEast': '2 / -1',
+	'SouthEast': '1 / 2',
 }
 
 export const sideRoadGridColumn = {
@@ -51,6 +51,13 @@ export const sideRoadGridColumn = {
 	'NorthEast': '1 / 2',
 	'SouthWest': '2 / -1',
 	'SouthEast': '1 / 2',
+}
+
+export const sideRoadGridRows = {
+	'NorthWest': '1 / 2',
+	'NorthEast': '1 / 2',
+	'SouthWest': '2 / -1',
+	'SouthEast': '2 / -1',
 }
 
 export const offRoadGridColumn = {
