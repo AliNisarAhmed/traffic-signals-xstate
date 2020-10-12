@@ -6,11 +6,12 @@ import {
   mainRoadGridRows,
   offRoadGridColumn,
   offRoadGridRows,
+  sectionBorders,
   sectionGridTemplateColumns,
   sectionGridTemplateRows,
   sideRoadGridColumn,
   sideRoadGridRows,
-	signalAlign,
+  signalAlign,
   signalJustify,
 } from '../utils/constants';
 import { SectionProps, SectionTypes } from '../utils/types';
@@ -22,11 +23,13 @@ interface IProps {
 }
 
 const StyledSection = styled.section<SectionProps>`
-  border: 10px solid gray;
-
   display: grid;
   grid-template-columns: ${(props) => sectionGridTemplateColumns[props.position]};
   grid-template-rows: ${(props) => sectionGridTemplateRows[props.position]};
+
+  border: solid;
+  border-width: ${(props) => sectionBorders[props.position]};
+  border-color: gray;
 `;
 
 const OffRoad = styled.div<SectionProps>`

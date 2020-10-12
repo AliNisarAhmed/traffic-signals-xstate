@@ -25,6 +25,13 @@ export const greenLightTime = 2500;
 export const yellowLightTime = 1000;
 export const totalSignalTime = redLightTime + greenLightTime + yellowLightTime;
 
+export const sectionBorders = {
+	'NorthWest': '0 10px 10px 0',
+	'NorthEast': '0 0 10px 10px',
+	'SouthWest': '10px 10px 0 0',
+	'SouthEast': '10px 0 0 10px',
+}
+
 export const sectionGridTemplateColumns = {
 	'NorthWest': '5fr 1fr',
 	'NorthEast': '1fr 5fr',
